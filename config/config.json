@@ -1,0 +1,32 @@
+{
+    "botSettings": {
+        "prefix": "!",
+        "defaultInviteExpiration": 0,
+        "defaultMaxUses": 0,
+        "enableWelcomeDM": true,
+        "logChannelId": null
+    },
+    "permissions": {
+        "requiredBotPermissions": [
+            "CreateInstantInvite",
+            "ManageRoles",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks"
+        ],
+        "requiredUserPermissions": [
+            "ManageGuild"
+        ]
+    },
+    "limits": {
+        "maxInvitesPerGuild": 50,
+        "maxRolesPerInvite": 1,
+        "rateLimitDelay": 1000
+    },
+    "features": {
+        "autoDeleteExpiredInvites": true,
+        "trackInviteStatistics": true,
+        "sendWelcomeMessages": true,
+        "logRoleAssignments": true
+    }
+}
